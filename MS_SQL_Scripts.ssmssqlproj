@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="MS_SQL_Scripts">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="mars:MHA\alexey.varentsov">
+          <Created>2014-09-10T10:46:51.9900798+04:00</Created>
+          <Type>SQL</Type>
+          <Server>mars</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+        <ConnectionNode Name="rusprsql002:MHA\alexey.varentsov">
+          <Created>2014-09-19T08:17:26.7434755+04:00</Created>
+          <Type>SQL</Type>
+          <Server>rusprsql002</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="rusprsql003:MHA\alexey.varentsov">
+          <Created>2014-10-09T22:09:43.6017517+04:00</Created>
+          <Type>SQL</Type>
+          <Server>rusprsql003</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="db disk space.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:rusprsql003:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>rusprsql003</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>db disk space.sql</FullPath>
+        </FileNode>
+        <FileNode Name="mail format html.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mars:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mars</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>mail format html.sql</FullPath>
+        </FileNode>
+        <FileNode Name="mail save table as html.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mars:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mars</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>mail save table as html.sql</FullPath>
+        </FileNode>
+        <FileNode Name="missing indexes with create statment.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mars:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mars</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>missing indexes with create statment.sql</FullPath>
+        </FileNode>
+        <FileNode Name="missing indexes with plan and cost.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mars:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mars</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>missing indexes with plan and cost.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ReportServer.dbo.prc_subscription_change.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mars:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mars</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ReportServer.dbo.prc_subscription_change.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ReportServer.dbo.prc_subscription_restore_version_last.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:mars:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>mars</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>ReportServer.dbo.prc_subscription_restore_version_last.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
